@@ -4,6 +4,12 @@
 
 Aplicação completa desenvolvida para a gestão e comercialização de cupcakes artesanais saudáveis (adoçados naturalmente). O projeto adota uma arquitetura em camadas (**MVC**) baseada em uma API RESTful, integrando um banco de dados relacional **SQLite**, uma API de back-end em **Python (Flask)** e uma interface de usuário web moderna e responsiva utilizando **HTML, CSS e JavaScript**.
 
+## Aplicativo Online – Doce Cuidado – Cupcakes
+
+Acesse o aplicativo publicado no Render:
+
+https://doce-cuidado-cupcakes.onrender.com/
+
 ---
 
 ## Tecnologias Utilizadas
