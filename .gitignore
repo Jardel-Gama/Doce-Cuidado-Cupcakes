@@ -1,0 +1,21 @@
+# Ambiente virtual
+venv/
+.venv/
+
+# Arquivos Python
+__pycache__/
+*.py[cod]
+
+# Configurações e segredos
+.env
+.env.*
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# Instalações e caches
+.pytest_cache/
+.mypy_cache/
+
+loja_cupcakes.db

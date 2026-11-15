@@ -1,0 +1,255 @@
+/* --- ESTILOS GERAIS --- */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fdf8fa;
+    color: #333;
+}
+
+/* --- CABEÇALHO --- */
+header {
+    background-color: #78432B;
+    color: white;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #fbcfe8;
+}
+
+/* --- SESSÃO HERO (DESTAQUE) --- */
+.hero {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #FFF0F5;
+}
+
+.hero h1 {
+    color: #5C3020;
+    font-size: 2.8rem;
+    margin-bottom: 15px;
+}
+
+.hero h2 {
+    color: #A66A50;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+/* --- CARDÁPIO --- */
+.section-title {
+    text-align: center;
+    margin: 40px 0;
+    color: #78432b;
+    font-size: 2rem;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.card {
+    background: white;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    background-color: #f3f4f6; /* Cor de fundo caso a imagem falhe */
+}
+
+.card h3 {
+    color: #78432b;
+    margin-bottom: 10px;
+    font-size: 1.3rem;
+}
+
+.card p {
+    font-size: 0.9rem;
+    color: #6b7280;
+    margin-bottom: 15px;
+    line-height: 1.4;
+}
+
+.preco {
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #10b981;
+    margin: 15px 0;
+}
+
+button {
+    background-color: #78432b;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    width: 100%;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #5c3020;
+}
+
+/* --- NOSSA HISTÓRIA --- */
+.historia-section {
+    background: white;
+    padding: 60px 20px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.historia-container {
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.8;
+}
+
+.historia-container h2 {
+    color: #78432b;
+    margin-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #78432b;
+    color: white;
+}
+
+/* --- MELHORIAS IMPLEMENTADAS (NUTRIÇÃO E MODAL) --- */
+.detalhes-nutricionais {
+    font-size: 0.85rem;
+    background: #fff0f5;
+    padding: 10px;
+    border-radius: 6px;
+    margin-bottom: 15px;
+    color: #4b5563;
+    text-align: left;
+}
+
+.detalhes-nutricionais strong { 
+    color: #78432b; 
+}
+
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 2000; 
+    left: 0; 
+    top: 0; 
+    width: 100%; 
+    height: 100%; 
+    background-color: rgba(0,0,0,0.6); 
+    backdrop-filter: blur(4px);
+}
+
+.modal-content {
+    background-color: #fff;
+    margin: 5% auto; 
+    padding: 30px;
+    border-radius: 12px;
+    width: 90%;
+    max-width: 500px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+.close-btn {
+    color: #9ca3af;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+    line-height: 1;
+}
+
+.close-btn:hover { 
+    color: #78432b; 
+}
+
+.pagamento-section {
+    margin: 20px 0;
+    padding-top: 20px;
+    border-top: 1px solid #e5e7eb;
+}
+
+.pagamento-section h4 {
+    margin-bottom: 10px;
+    color: #78432b;
+}
+
+.pagamento-section select {
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #d1d5db;
+    font-size: 16px;
+    outline: none;
+}
+
+.btn-confirmar {
+    width: 100%;
+    background-color: #10b981;
+    color: white;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.btn-confirmar:hover { 
+    background-color: #059669; 
+}
+
+.item-carrinho {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 0;
+    border-bottom: 1px dashed #e5e7eb;
+    color: #4b5563;
+}
