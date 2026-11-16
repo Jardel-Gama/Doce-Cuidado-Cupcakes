@@ -56,3 +56,10 @@ projeto-integrador-cupcake/
 ├── app.py                    # Back-end / API Flask (Controller/Model)
 ├── .gitignore                # Arquivos ignorados pelo Git (venv/, *.db)
 └── README.md                 # Documentação principal
+
+
+## Vídeo de Apresentação do Projeto
+
+Assista à apresentação do projeto Doce Cuidado – Cupcakes:
+
+https://youtu.be/xxS8VXqP3s0
