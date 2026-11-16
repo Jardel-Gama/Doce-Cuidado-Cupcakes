@@ -56,7 +56,7 @@ projeto-integrador-cupcake/
 ├── app.py                    # Back-end / API Flask (Controller/Model)
 ├── .gitignore                # Arquivos ignorados pelo Git (venv/, *.db)
 └── README.md                 # Documentação principal
-
+```
 
 ## Vídeo de Apresentação do Projeto
 
